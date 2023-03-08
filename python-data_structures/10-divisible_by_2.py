@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 def divisible_by_2(my_list=[]):
     """
-    Returns a list of True or False values indicating whether each integer in the input list is a multiple of 2.
+    Returns a list of True or False values.
     """
     # Initialize an empty list to store the results
     results = []
