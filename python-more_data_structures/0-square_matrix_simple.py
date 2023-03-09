@@ -10,7 +10,5 @@ def square_matrix_simple(matrix=[]):
     # iterate over the input matrix and compute the square value of each integer
     for i in range(num_rows):
         for j in range(num_cols):
-            result[i][j] = matrix[i][j] ** 2
-
-    # return the resulting matrix
+            result[i][j] = matrix[i][j] *
     return result
