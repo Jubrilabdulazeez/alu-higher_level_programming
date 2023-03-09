@@ -1,4 +1,6 @@
 #!/usr/bin/python3
-def simple_delete(a_dictionary, key=""):
-    if key in a_dictionary:
-        del a_dictionary[key]
+def print_sorted_dictionary(a_dictionary):
+    if a_dictionary is None:
+        return
+    for key in sorted(a_dictionary.keys()):
+        print(key + ": " + str(a_dictionary[key]))]
