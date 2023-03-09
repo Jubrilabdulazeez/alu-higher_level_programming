@@ -6,8 +6,6 @@ def square_matrix_simple(matrix=[]):
 
     # create a new matrix with the same size as the input matrix
     result = [[0 for j in range(num_cols)] for i in range(num_rows)]
-
-    # iterate over the input matrix and compute the square value of each integer
     for i in range(num_rows):
         for j in range(num_cols):
             result[i][j] = matrix[i][j] *
