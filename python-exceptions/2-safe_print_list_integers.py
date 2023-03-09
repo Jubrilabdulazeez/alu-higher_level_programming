@@ -6,9 +6,9 @@ def safe_print_list_integers(my_list=[], x=0):
             if isinstance(i, int):
                 print("{:d}".format(i), end=" ")
                 count += 1
-        except ValueError:
+        except:
             pass
         if count == x:
             break
-    print()
+    print()  # add a newline after printing all integers
     return count
