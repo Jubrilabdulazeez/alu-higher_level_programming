@@ -1,5 +1,4 @@
 #!/bin/bash
-
 # Get the URL from the command line argument
 url=$1
 
